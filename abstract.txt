@@ -1,0 +1,10 @@
+Generating 3D models from a single image has been a long time complex task that is more recently
+making advancements. This paper explores one such method to this problem. Using a combination of
+a Feature extractor and a Graph convolutional Netowrk, an initial mesh is progressively
+deformed until it resembles the goal mesh (an object in picture). For thsi implementation, I
+perform training solely on airplanes. It furthermore attempts to develope a more modern
+netowrk that implements efficient and easy use of modern python libraries and gpu acceleration. 
+My resutls suggest that there are many complexeties to such a task, making the 3D generation
+a complex and difficult-to-replicate task. Though my model and all of the underlying code
+is built effieciently and effectively. For further improvements, a better analyusis pipeline should
+be implemented with analysis of how loss weights for each block effect the results as a whole. 
