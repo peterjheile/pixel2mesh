@@ -12,4 +12,6 @@ NOTE: This only works if you manage to retrieve access to the shapenet dataset. 
 
 The last main file that I believe you should check out is the p2m_model.py file. It contains the cumulation of the entire foward pass of the network. That means the logic for unsampling blocks, mutating meshes, and the key logic for the P2M network.
 
+Lastly, if you do want to try to use some of my checkpoints, download the zip submission on canvas. There are checkpoint in there. Then travel to the test.py file and scroll down to change the input image filepath and the model checkpoint filepath. Note not to change anything as a preliminary pass has to be made to load the model tensors so teh checkpoint can be loaded.
+
 
